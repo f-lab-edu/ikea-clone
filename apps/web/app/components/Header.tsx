@@ -2,6 +2,7 @@
 
 import React, {useState} from 'react';
 import LoginSlide from './LoginSlide';
+import Link from 'next/link';
 
 export default function Header() {
   const [loginSlide, setLoginSlide] = useState(false);
@@ -9,7 +10,7 @@ export default function Header() {
   return (
     <header>
       <div>
-        <span>IKEA 로고</span>
+        <Link href={'/'}>Ikea 로고</Link>
       </div>
       <div>
         <input type="text" placeholder="검색" />
