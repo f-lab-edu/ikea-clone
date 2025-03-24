@@ -11,6 +11,8 @@ export default function CategoryPage() {
   console.log(params)
  
   return (
-    {params}
+    <div>
+      <p>{params.name}</p>
+    </div>
   );
 }
