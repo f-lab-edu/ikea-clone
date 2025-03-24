@@ -23,25 +23,7 @@ export default async function Page({
   return (
     <main>
       <p>{name}</p>
-      {/* <h1>{current.label}</h1>
 
-      {parent && (
-        <div>
-          <Link href={`/category/${parent}`}>← 상위 카테고리로</Link>
-        </div>
-      )}
-
-      {children.length > 0 ? (
-        <ul>
-          {children.map((c) => (
-            <li key={c.name}>
-              <Link href={`/category/${c.name}`}>{c.label}</Link>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>이 카테고리에는 하위 항목이 없습니다.</p>
-      )} */}
     </main>
   );
 }
