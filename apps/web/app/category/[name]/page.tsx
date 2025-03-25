@@ -10,6 +10,7 @@ export default function CategoryPage() {
   // `params` -> { tag: 'shoes', item: 'nike-air-max-97' }
   console.log(params)
  
+  // 카테고리에 맞는 제품 목록 표시
   return (
     <div>
       <p>{params.name}</p>
