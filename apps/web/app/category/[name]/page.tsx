@@ -26,7 +26,7 @@ export default function CategoryPage() {
             <li key={product.id}>
               <h3>{product.name}</h3>
               <p>{product.description}</p>
-              <p>{product.price.toLocaleString()}원</p>
+              <p>{product.price}원</p>
               <img
                 src={product.imageUrl}
                 alt={product.name}
