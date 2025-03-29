@@ -2,9 +2,9 @@
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { categories } from '../lib/categoryData';
+import { categories } from '../../lib/categoryData';
 
-export default function Category() {
+export default function ProductCategory() {
   const pathname = usePathname(); // 현 주소 값
   const slug = pathname.split('/').pop(); // 주소를 '/'기준으로 문자열로 나누고 주소 값에서 마지막 부분만 가져오기 ex) /category/bed -> bed
 
