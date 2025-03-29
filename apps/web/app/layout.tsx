@@ -1,4 +1,4 @@
-import CategoryNav from './components/CategoryNav';
+import CategoryParentNav from './components/CategoryParentNav';
 import Header from './components/Header';
 
 export const metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="ko">
       <body>
         <Header/>
-        <CategoryNav/>
+        <CategoryParentNav/>
         {children}
       </body>
     </html>

@@ -13,7 +13,7 @@ export type Product = {
       name: '1인용 침대 1',
       description: '1인용 침대 1',
       price: 299000,
-      imageUrl: '/images/products/single-bed1.jpg',
+      imageUrl: 'https://www.ikea.com/kr/ko/images/products/songesand-bed-frame-with-2-storage-boxes-white-luroey__1151043_pe884764_s5.jpg?f=xxs',
       category: ['bed-mattress', 'bed', 'single-bed'],
     },
     {
@@ -21,7 +21,7 @@ export type Product = {
       name: '1인용 침대 2',
       description: '1인용 침대 2',
       price: 249000,
-      imageUrl: '/images/products/single-bed2.jpg',
+      imageUrl: 'https://www.ikea.com/kr/ko/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259334_pe926648_s5.jpg?f=xxs',
       category: ['bed-mattress', 'bed', 'single-bed'],
     },
     {
@@ -29,7 +29,7 @@ export type Product = {
       name: '1인용 침대 3',
       description: '1인용 침대 3',
       price: 269000,
-      imageUrl: '/images/products/single-bed3.jpg',
+      imageUrl: 'https://www.ikea.com/kr/ko/images/products/grimsbu-bed-frame-grey__0749251_pe747239_s5.jpg?f=xxs',
       category: ['bed-mattress', 'bed', 'single-bed'],
     },
     {
@@ -37,7 +37,7 @@ export type Product = {
       name: '더블 침대 1',
       description: '더블 침대 1',
       price: 229000,
-      imageUrl: '/images/products/double-bed1.jpg',
+      imageUrl: 'https://www.ikea.com/kr/ko/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259335_pe926650_s5.jpg?f=xxs',
       category: ['bed-mattress', 'bed', 'double-bed'],
     },
     {
@@ -45,7 +45,7 @@ export type Product = {
       name: '더블 침대 2',
       description: '더블 침대 2',
       price: 99000,
-      imageUrl: '/images/products/double-bed2.jpg',
+      imageUrl: 'https://www.ikea.com/kr/ko/images/products/malm-ottoman-bed-white__0749127_pe745496_s5.jpg?f=xxs',
       category: ['bed-mattress', 'bed', 'double-bed'],
     },
     {
